@@ -4,5 +4,8 @@ runtime: php
 api_version: 1
 
 handlers:
-- url: /.*
+- url: /
   script: helloGAE.php
+
+- url: /Form
+  script: Form.php
