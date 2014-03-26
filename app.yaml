@@ -9,3 +9,12 @@ handlers:
 
 - url: /Form
   script: Form.php
+
+- url: /Static
+  script: StaticFile.php
+
+- url: /images
+  static_dir: images
+
+- url: /stylesheets
+  static_dir: stylesheets
